@@ -45,6 +45,7 @@ Ensure you have Python installed, then install the following dependencies:
 
 ```bash
 pip install torch lightning
+```
 
 ## 💻 Usage
 
@@ -60,10 +61,11 @@ The training process is automated using the PyTorch Lightning `Trainer`.
 * **Loss Function**: Employs Cross-Entropy Loss to quantify the difference between predicted tokens and true labels.
 * **Execution**: Run the following block to train the model:
 
-```python
+```bash
 # Initialize the trainer for 30 epochs
 trainer = L.Trainer(max_epochs=30)
 trainer.fit(model, train_dataloaders=dataloader)
+```
 
 ---
 
