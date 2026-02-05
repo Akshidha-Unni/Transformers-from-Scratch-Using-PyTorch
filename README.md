@@ -73,8 +73,8 @@ trainer.fit(model, train_dataloaders=dataloader)
 
 After training for 30 epochs, the model successfully learns the specific sequence patterns provided in the training data.
 
-* **Input Sequence**: "What", "is", "CNN", "<EOS>"
-* **Model Output**: The model correctly predicts "Great" followed by "<EOS>".
+* **Input Sequence**: "What", "is", "CNN", `<EOS>`.
+* **Model Output**: The model correctly predicts "Great" followed by `<EOS>`.
 * **Inference Logic**: The generation loop continues until the `<EOS>` token is predicted or the `max_length` is reached.
 
 ---
