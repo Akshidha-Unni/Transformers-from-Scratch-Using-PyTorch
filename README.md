@@ -44,7 +44,8 @@ The final model combines:
 Ensure you have Python installed, then install the following dependencies:
 
 ```bash
-pip install torch lightning
+pip install torch lightning```
+
 
 ## 💻 Usage
 
